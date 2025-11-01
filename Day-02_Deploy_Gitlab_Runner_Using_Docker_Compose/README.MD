@@ -2,24 +2,26 @@
 
 This guide shows how to run a GitLab Runner inside a Docker container using Docker Compose and register it with your GitLab instance. By using Docker Compose, you can easily manage the GitLab Runner as a service, persist its configuration, and isolate it from your host system.
 
-# Register runner
-admin > CICD > runners
-Name: project
-Tick: Run untagged jobs
-Copy code
-gitlab-runner register  --url http://gitlab.devopsinaction.lab  --token glrt-ioashbXxMybzYJX1XPfKHW86MQp0OjEKdToxCw.01.12077hr96
+## Register runner
+
+- admin > CICD > runners
+  - Name: project
+  - Tick: Run untagged jobs
+- Copy code
+  - gitlab-runner register  --url http://gitlab.devopsinaction.lab  --token glrt-ioashbXxMybzYJX1XPfKHW86MQp0OjEKdToxCw.01.12077hr96
 
 
-# Verify URL
+## Verify URL
+```bash
 docker exec -it gitlab_runner \
 curl http://gitlab.devopsinaction.lab
-
+```
 If using a hostname, add it either:
 - In /etc/hosts of the runner container
 - Using --docker-extra-hosts during registration
 
 
-# Register runner
+##  Register runner
 
 ```bash
 #!/bin/bash
@@ -61,7 +63,7 @@ Tips:
 - --docker-volumes "/var/run/docker.sock:/var/run/docker.sock" allows Docker-in-Docker builds.
 - --run-untagged="true" ensures untagged jobs are picked up.
 
-# Verify Runner
+##  Verify Runner
 ```bash
 docker exec -it gitlab_runner \
 gitlab-runner list
@@ -72,17 +74,19 @@ docker exec -it gitlab_runner \
 gitlab-runner verify
 ```
 
-# Check in GitLab:
-http://gitlab.devopsinaction.lab:8081/admin/runners
+## Check in GitLab:
+```bash
+http://gitlab.devopsinaction.lab/admin/runners
+```
 
-# Networking Considerations
-IP with Port
-domain with port with host entry
-domain with port with Internal/external DNS
-Domain with port with reverse proxy
+## Networking Considerations
+- IP with Port
+- Domain with port with host entry
+- Domain with port with Internal/external DNS + Port
+- Domain with port with reverse proxy
 
 
-# Create test project and add ci file
+## Create test project and add ci file
 
 ```
 # .gitlab-ci.yml
