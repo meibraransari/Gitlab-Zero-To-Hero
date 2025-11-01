@@ -49,7 +49,7 @@ GITLAB_RUNNER_VERSION=ubuntu-bbdc3f57
 CUSTOM_DNS=192.168.1.101
 ```
 
-```bash
+```yaml
 # nano compose.yaml
 services:
   gitlab:
