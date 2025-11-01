@@ -207,6 +207,11 @@ Navigate to:
 /admin/application_settings/general/Sign-up restrictions
 ```
 
+## 🔗 Additional Resources
+
+* 📘 [Install GitLab in a Docker container](https://docs.gitlab.com/install/docker/installation/)
+
+
 ## 🧠 About This Project
 
 This project is maintained by **DevOps In Action**, mainly focusing on practical, hands-on DevOps setups for CI/CD automation, containerization, and infrastructure management.
