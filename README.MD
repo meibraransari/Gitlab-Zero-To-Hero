@@ -2,7 +2,7 @@
 
 Welcome to the **GitLab Docker Compose** repository! This guide will help you set up a self-hosted GitLab CE server and GitLab Runners using Docker Compose. The repository is organized into daily steps to make the setup process easy to follow.
 
-<img src="./assets/gitlab.png" alt="GitLab Logo" width="100"/>
+<img src="./assets/icon.svg" alt="GitLab Logo" width="100"/>
 
 ## Overview
 
