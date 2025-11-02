@@ -38,7 +38,7 @@ services:
 docker compose up -d
 ```
 
-## Register runner
+## Register Runner
 
 - admin > CICD > runners
   - Name: project
