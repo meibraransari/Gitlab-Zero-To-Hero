@@ -8,7 +8,7 @@ This guide shows how to run a GitLab Runner inside a Docker container using Dock
 [![Watch on Youtube](https://i.ytimg.com/vi/jTJEtvQH4Qc/maxresdefault.jpg)](https://youtu.be/jTJEtvQH4Qc)
 
 
-## Run rinner on any server
+## Run Runner on Any Server
 
 ```bash
 #nano .env
