@@ -146,7 +146,7 @@ url = "https://gitlab.devopsinaction.lab"
 ```
 
 
-### 6️⃣ Restart GitLab Runner
+### Restart GitLab Runner
 
 Apply the changes:
 
