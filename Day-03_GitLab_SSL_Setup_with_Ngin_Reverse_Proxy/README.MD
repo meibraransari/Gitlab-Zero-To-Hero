@@ -93,6 +93,17 @@ nginx['proxy_set_headers'] = {
 }
 ```
 
+ **Note:**  
+ If your Nginx reverse proxy is on the same server, use:  
+ ```ruby
+ nginx['listen_addresses'] = ['127.0.0.1']
+ ```
+
+ Otherwise, use:  
+ ```ruby
+ nginx['listen_addresses'] = ['0.0.0.0']
+ ```
+
 
 ### 5️⃣ Runner SSL Setup
 
