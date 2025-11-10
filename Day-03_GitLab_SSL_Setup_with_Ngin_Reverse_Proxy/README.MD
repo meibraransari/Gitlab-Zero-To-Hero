@@ -78,6 +78,7 @@ Open and edit the configuration:
 
 ```bash
 sudo nano ./gitlab/config/gitlab.rb
+chmod ./gitlab/config/gitlab.rb
 ```
 
 Replace content or update these lines:
