@@ -41,6 +41,7 @@ Here’s the workflow we’ll achieve:
 ### 1️⃣ Stop Running Containers
 
 ```bash
+cd /HDD2TB/iansari/gitlab
 docker compose down
 ```
 
