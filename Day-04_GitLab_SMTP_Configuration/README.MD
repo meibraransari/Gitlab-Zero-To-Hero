@@ -3,6 +3,12 @@
 This guide provides SMTP configurations for different mail providers — useful for setting up GitLab email notifications.
 Remember to replace placeholder values (`<USERNAME>`, `<PASSWORD>`, `<DOMAIN>`, etc.) with your actual credentials.
 
+
+## 🎬 Video Demonstration
+
+[![Watch on Youtube](https://i.ytimg.com/vi/fF_mgWTpZsk/maxresdefault.jpg)](https://youtu.be/fF_mgWTpZsk)
+
+
 ## Configuration
 ```
 cd /HDD2TB/iansari/gitlab
