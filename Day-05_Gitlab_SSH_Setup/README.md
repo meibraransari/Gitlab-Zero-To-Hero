@@ -17,6 +17,9 @@ Whether you're hosting GitLab in Docker or managing it on a self-hosted server, 
 - ✅ Bonus: Setting up SSH for Docker-based GitLab environments
 
 
+## 🔐 Authentation Type
+- See [HTTPS vs SSH](Auth_Type.md) 
+
 ## 🧠 Understanding Architecture
 
 When GitLab runs in a Docker container, it provides:
